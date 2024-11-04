@@ -1,1 +1,65 @@
-html
+## HTML:
+
+HTML stands for Hypertext Markup Language, a markup language that enables documents to be displayed as web pages on the Internet. It is a markup language that was originally designed for sharing scientific documents.
+
+## HTML5:
+
+The HTML5 specification defines a single language called HTML5 that can be written in HTML or XML syntax. The HTML5 specification defines a processing model that can interoperate with earlier HTML implementations. HTML5 improves the markup for documents. HTML5 includes markup and APIs for idioms, such as web storage, video, and audio content.
+
+## HTML Features:
+
+1. It provides the means to categorize web pages into different sections, and includes tools for effective data management, drawing, video, and audio.
+2. Facilitates the development of cross-browser applications for the web and portable devices.
+3. Allows greater flexibility, permitting the development of exciting and interactive websites.
+4. Helps to create a more engaging user experience.
+5. Pages that are designed by using HTML5 can provide an experience similar to desktop applications.
+6. Allows for enhanced, multiple-platform development by combining the capability of an application programming interface (API).
+7. By using HTML5, developers can create a modern application experience that is uniform across platforms and devices.
+
+```html
+<html>
+  <head>
+    <title>Sampe Page</title>
+  </head>
+  <body>
+    <h1>Hello World!</h1>
+  </body>
+</html>
+```
+
+1. The html tag is the root element of this tree.
+2. This example, contains two elements: head and body.
+3. The head element can contain the following tags: title, scripts, style, style sheet links, meta information, browser support information and other initialization functions.
+4. The body tag contains all content that is displayed on the webpage.
+
+## DOM Tree:
+
+A DOM tree is an in-memory representation of a document. DOM trees contain several kinds of nodes, which include a DOCTYPE node, elements such
+as headers and paragraphs, text nodes, and comment nodes.
+
+## XHTML:
+
+```xml
+<?xml version="1.0" encoding= "UTF-8"?>
+<html xmlns="https://www.w3.org/1999/xhtml">
+  <head>
+    <meta
+      http-equiv="Content-Type"
+      content="application/xhtml+ml; charset=ISO-8859-1"
+    />
+    <title>Example document</title>
+  </head>
+  <body>
+    <p>Example paragraph</p>
+  </body>
+</html>
+```
+
+1. Extensible Markup Language (XML) documents look similar to HTML documents, except they have an XML tag on the first line.
+2. In addition, with XML documents, the Content-type must be specified as an XML media type such as application or xml.
+3. When a document is transmitted with an XML content type, it is treated as an XML document by a web browser and an XML processor parses the document.
+
+## HTML vs XHTML:
+
+1. Both HTML and XHTML use the same semantic or tags. However, XHTML tags all need to be in lowercase, while the case used does not matter in HTML.
+2. In addition, XHTML must be well-formed. Every element must have an end tag. All attributes must have a value and double or single quotation marks must surround all attribute values. If an XML parser encounters a situation where the syntax is not well-formed, it stops processing. In HTML, different case, unmatched quotation marks, and non-terminated and uncontained elements are allowed and commonplace. In this regard, HTML syntax is less rigorous than XHTML syntax.
