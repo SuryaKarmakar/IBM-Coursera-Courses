@@ -4,7 +4,7 @@ This reading will introduce you to the most common HTML elements you need to kno
 
 ## HTML Setup:
 
-Recall that an HTML document must always start by specifying the DOCTYPE. The entire content is then enclosed within an <html> tag. Within this tag, the content is further segregated into either the <head> or <body> elements of the code. The <head> tag contains all the metadata about the page, and the <body> tag contains the content that is displayed to the end user.
+Recall that an HTML document must always start by specifying the DOCTYPE. The entire content is then enclosed within an \<html\> tag. Within this tag, the content is further segregated into either the <head> or <body> elements of the code. The <head> tag contains all the metadata about the page, and the <body> tag contains the content that is displayed to the end user.
 
 As per this setup, an empty HTML document without content or metadata should look as follows:
 
