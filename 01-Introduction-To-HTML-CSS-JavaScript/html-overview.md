@@ -63,3 +63,33 @@ as headers and paragraphs, text nodes, and comment nodes.
 
 1. Both HTML and XHTML use the same semantic or tags. However, XHTML tags all need to be in lowercase, while the case used does not matter in HTML.
 2. In addition, XHTML must be well-formed. Every element must have an end tag. All attributes must have a value and double or single quotation marks must surround all attribute values. If an XML parser encounters a situation where the syntax is not well-formed, it stops processing. In HTML, different case, unmatched quotation marks, and non-terminated and uncontained elements are allowed and commonplace. In this regard, HTML syntax is less rigorous than XHTML syntax.
+
+## HTML Scripting:
+
+The use of scripting within a website, often through the use of JavaScript, can be done directly within your HTML code within the `script` tag, or within a separate file which is called in your HTML code. Scripting provides a more interactive user experience when browsing websites. It can be used for various tasks, such as form validation, dynamically changing the content of a website, and manipulating images.
+
+Each HTML document that is loaded into a browser page becomes a Document object. The Document object provides access to all HTML elements in a page and can be accessed from within a script
+
+```html
+<html>
+  <head>
+    <script type="text/javascript">
+      function textChecker() {
+        var textField1 = document.getElementById("textField1");
+        if (textField1.value == "") {
+          alert("Please type in the field");
+        } else {
+          alert("You entered: " + textField1.value);
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <input type="text" id="textField1" />
+    <input type="button" onClick="textChecker ()" value="Submit" />
+  </body>
+</html>
+```
+
+1. The document.getElementById(‘textField1’) retrieves the contents of what was typed into the input field that has the id of textField1 and places this content into a variable.
+2. The JavaScript logic then tests whether any data was typed into the field, and an alert dialog is displayed with the result.
