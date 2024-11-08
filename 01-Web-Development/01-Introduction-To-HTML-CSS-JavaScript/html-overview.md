@@ -93,3 +93,237 @@ Each HTML document that is loaded into a browser page becomes a Document object.
 
 1. The document.getElementById(‘textField1’) retrieves the contents of what was typed into the input field that has the id of textField1 and places this content into a variable.
 2. The JavaScript logic then tests whether any data was typed into the field, and an alert dialog is displayed with the result.
+
+## HTML5 Overview:
+
+1. DOCTYPE tag:
+
+All HTML documents must start with this declaration. It tells the browser what document type to expect. Note that this element has no ending tag.
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Metadata Here -->
+  </head>
+  <body>
+    <!-- Document Body Here -->
+  </body>
+</html>
+```
+
+2. html tag:
+
+The root element of an HTML document. All other tags in the document should be contained in this tag.
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Metadata Here -->
+  </head>
+  <body>
+    <!-- Document Body Here -->
+  </body>
+</html>
+```
+
+3. head tag:
+
+Contains metadata and should be placed after the \<html\> tag and before the \<body\> tag.
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Metadata Here -->
+  </head>
+  <body>
+    <!-- Document Body Here -->
+  </body>
+</html>
+```
+
+4. title tag:
+
+Defines the title of the HTML document displayed in the browser’s title bar and tabs. It is required in all HTML documents. It should be contained in the \<head\> tag.
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Document Title</title>
+  </head>
+</html>
+```
+
+5. meta tag:
+
+Used to provide metadata about the HTML document.
+
+```html
+<head>
+  <meta name="author" content="Christopher" Moore />
+</head>
+```
+
+6. script tag:
+
+Used to embed JavaScript in an HTML document.
+
+```html
+<script>
+  alert(“Hello World”);
+</script>
+```
+
+7. link tag:
+
+Used to link an external document, such as a CSS file, to an HTML document.
+
+```html
+<head>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+```
+
+8. body tag:
+
+Contains the contents of the HTML document. It should contain all other tags besides the \<head\> element to display the body of the document.
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Metadata Here -->
+  </head>
+  <body>
+    <!-- Document Body Here -->
+  </body>
+</html>
+```
+
+9. div tag:
+
+Often used to separate sections in the body of a document in order to style that content with CSS.
+
+```html
+<div>
+  This element has no particular semantic meaning but is often used in
+  conjunction with CSS for styling purposes.
+</div>
+```
+
+10. p tag:
+
+This tag is used to identify a paragraph. It places a line break after the text it is enclosed in.
+
+```html
+<p>This is a paragraph of text. It can be as short or as long as needed.</p>
+```
+
+11. h1 tag:
+
+Adds a level 1 heading to the HTML document.
+
+```html
+<h1>Thomas J. Watson</h1>
+```
+
+12. a tag:
+
+This tag, called an “anchor tag” creates hyperlinks using the href attribute. In place of path enter the URL or path name to the page you want to link to.
+
+```html
+<a href="https://www.ibm.com">IBM</a>
+```
+
+13. img tag:
+
+This tag is used to place an img. In place of path insert a URL or a relative file path to the image location. Other optional attributes include width and height of the image in pixels.
+
+```html
+<img
+src=“https://upload.wikimedia.org/wikipedia/commons/7/7e/Thomas_J_Watson_Sr.jpg”
+width=“300” height=“300”/>
+```
+
+14. table tag:
+
+This tag is used to denote a table. Should be used with \<tr\> (defines a table row) and \<td\> (defines a table cell within a row) tags. The \<th\> tag can also be used to define the table header row.
+
+```html
+<table>
+  <tr>
+    <th>Header cell 1</th>
+    <th>Header cell 2</th>
+  </tr>
+  <tr>
+    <td>First row first cell</td>
+    <td>First row second cell</td>
+  </tr>
+  <tr>
+    <td>Second row first cell</td>
+    <td>Second row second cell</td>
+  </tr>
+</table>
+```
+
+15. tr tag:
+
+Denotes a row within a table.
+
+```html
+<tr>
+  <th>Header cell 1</th>
+  <th>Header cell 2</th>
+</tr>
+```
+
+16. th tag:
+
+Denotes the header cells within a row within a table.
+
+```html
+<th>Header cell</th>
+```
+
+17. td tag:
+
+Denotes a cell within a row, within a table.
+
+```html
+<td>Cell Content</td>
+```
+
+18. li tag:
+
+Element that creates bulleted line items in an ordered or unordered list. Should be used in conjunction with the \<ul\> or \<ol\> tags.
+
+```html
+<li>Bullet point 2</li>
+```
+
+19. ol tag:
+
+Element that creates an ordered list using numbers. Should be used in conjunction with the \<li\> tag.
+
+```html
+<ol>
+  <li>Numbered bullet point 1</li>
+  <li>Numbered bullet point 2</li>
+</ol>
+```
+
+20. ul tag:
+
+Element that creates an unordered list using bullets. Should be used in conjunction with the \<li\> tag.
+
+```html
+<ul>
+  <li>Bullet point 1</li>
+  <li>Bullet point 2</li>
+</u
+```
+
+##
