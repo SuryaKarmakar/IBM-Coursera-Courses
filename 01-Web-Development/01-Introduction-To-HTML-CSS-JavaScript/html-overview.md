@@ -372,4 +372,4 @@ Element that creates an unordered list using bullets. Should be used in conjunct
 
 \<video\> Specifies video, such as a movie clip or video stream
 
-<!-- --> Comments in source that are not displayed in the browser
+\<!-- --> Comments in source that are not displayed in the browser
