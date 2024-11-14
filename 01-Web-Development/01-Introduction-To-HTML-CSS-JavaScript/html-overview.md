@@ -326,4 +326,28 @@ Element that creates an unordered list using bullets. Should be used in conjunct
 </u
 ```
 
-##
+## HTML5 Tags and Structural Elements:
+
+\<article\> Content from an external source - news article, blog, or forum
+\<aside\> Content aside from the page content
+\<audio\> Used to embed sound content
+\<canvas\> Used to draw graphics
+\<datalist\> Provides a list of predefined options for input controls
+\<details\> Used to show or hide contents
+\<embed\> Embeds an external application or interactive content into page
+\<figcaption\> Caption for the figure tag
+\<figure\> Specifies self-contained content
+\<footer\> The footer of a document or section
+\<header\> Specifies a group of introductory or navigational elements
+\<keygen\> Specifies a key-pair generator field used in forms
+\<mark\> Represents highlighted text
+\<meter\> Used for measurements with minimum and maximum values
+\<nav\> Specifies navigation for a document
+\<output\> Represents the result of a calculation
+\<progress\> Specifies the state of work in progress
+\<section\> Defines sections in a document or article
+\<source\> Used to specify multiple media resources for media elements
+\<summary\> Defines a visible heading for the details tag
+\<time\> Used to specify the date or time in a document
+\<video\> Specifies video, such as a movie clip or video stream
+\<!-- --> Comments in source that are not displayed in the browser
