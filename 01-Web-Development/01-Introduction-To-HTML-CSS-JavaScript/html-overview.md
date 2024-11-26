@@ -373,3 +373,116 @@ Element that creates an unordered list using bullets. Should be used in conjunct
 \<video\> Specifies video, such as a movie clip or video stream
 
 \<!-- --> Comments in source that are not displayed in the browser
+
+## HTML5 Input Element:
+
+1. color:
+
+The input type="color" attribute allows the user to select a color. The dialog varies depending on the browser. Some browsers don’t support this input type. In non-supporting browsers, this input type is displayed as a regular text input field into which the user might type a valid color name or color code.
+
+```html
+<input type="color" />
+```
+
+2. date:
+
+The input type="date" attribute is a date control (year, month, day) with no time zone. The input dialog varies from browser to browser. The datetime-local attribute provides input for a date and time (year, month, day, hour, minute, AM/PM) with no time zone.
+
+```html
+<body>
+  <input type="date" />
+  <input type="datetime-local" />
+</body>
+```
+
+3. email:
+
+The input type="email" attribute is displayed as a regular text input field. It provides feedback when the input does not follow the email format.
+
+```html
+<input type="email" />
+```
+
+4. number:
+
+The input type="number" takes a numeric value as input. You can optionally specify the minimum, maximum values, step size, etc.
+
+```html
+<body>
+  <input type="number" />
+  <input type="number" min="5" max="10" />
+</body>
+```
+
+5. range:
+
+The input type="range" takes a numeric range as input. Only the numbers in the range of the minimum and the maximum are available for selection. The range attribute displays a slider with a range of values between the minimum and maximum. Only the slider itself is shown.
+
+```html
+<input type="range" min="5" max="10" />
+```
+
+6. search or text:
+
+The differences between input type="search" / and input type="text" / are mostly in style. WebKit-based browsers return a history of recently searched text strings.
+
+```html
+<body>
+  <input type="search" />
+  <input type="text" />
+</body>
+```
+
+7. tel:
+
+The input type="tel" pattern="[parameters]" attribute expects a telephone number as input. On its own, the input type="tel" provides
+nothing more than a text entry field in the browsers. It does not enforce numeric only input since many telephone numbers include other characters, such as the plus sign and hyphens. You need to supply your own pattern matcher if you want the browser to validate the telephone number.
+
+```html
+<body>
+  <input type="tel" />
+  <input type="tel" pattern="regex-pattern" />
+</body>
+```
+
+8. URL:
+
+The URL attribute is used to validate that the user typed in a properly formatted URL or web address.
+
+```html
+<input type="URL" />
+```
+
+9. list and datalist:
+
+The datalist options are only suggestions. Useful for auto-complete functionality. You can fill the list by nesting \<option\> elements inside the datalist tag. These options are the types of fruits listed in the drop-down list.
+
+```html
+<body>
+  <input type="text" list="fruits" />
+  <datalist id="fruits">
+    <option value="apple"></option>
+    <option value="banana"></option>
+    <option value="orange"></option>
+  </datalist>
+</body>
+```
+
+10. placeholder:
+
+Placeholder text is used to provide hints of what the input text format looks like. The placeholder fills the input text field with the example values in a lighter shade of text.
+
+```html
+<input type="email" placeholder="example@email.com" />
+```
+
+11. required:
+
+The required attribute implies that some text must be typed.
+The requirement to type some input applies even if the field contains placeholder text.
+
+```html
+<input type="email" required />
+```
+
+##
